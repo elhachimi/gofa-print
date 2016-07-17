@@ -1,5 +1,8 @@
-<p>
-  gofa-list works!
-  bkabka
-</p>
-<md-checkbox></md-checkbox>
+<md-list>
+  <md-list-item *ngFor="let gofa of gofas" (click)= "onSelect(gofa)">
+    <div class="md-list-item-text">
+      {{gofa.name}}
+    </div>
+
+   </md-list-item>
+</md-list>

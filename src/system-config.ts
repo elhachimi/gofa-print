@@ -21,6 +21,11 @@ const packages: any = {
     format: 'cjs',
     defaultExtension: 'js',
     main: 'checkbox.js'
+  },
+  '@angular2-material/list': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'list.js'
   }
 };
 
